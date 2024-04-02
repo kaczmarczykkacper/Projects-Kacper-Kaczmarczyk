@@ -1,0 +1,15 @@
+<script>
+    var a = parseFloat(prompt("Podaj a:"));
+    var b = parseFloat(prompt("Podaj b:"));
+    var c = parseFloat(prompt("Podaj c:"));
+    var delta = b*b-4*a*c;
+    if (delta<0)
+        document.write("Brak rozwiązania.")
+    else if (delta==0)
+        document.write("x=", -b/(2*a))
+    else {
+        var x1 = (-b-delta**0.5)/(2*a);
+        var x2 = (-b+delta**0.5)/(2*a);
+        document.write("x<sub>1</sub>=", x1," x<sub>2</sub>=",x2);
+    }
+    </script>
