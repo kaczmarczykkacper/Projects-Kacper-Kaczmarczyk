@@ -1,0 +1,17 @@
+<script>
+    var a = parseFloat(prompt("Podaj swój wzrost w cm:"));
+    var b = parseFloat(prompt("Podaj swoją masę ciała w kg:"));
+    var c = a/100
+    var d = b/(c**2)
+
+    document.write("BMI=",d, "<br>");
+
+    if (d<18.5)
+        document.write("Niedowaga");
+    else if (d<25)
+        document.write("OK");
+    else if (d<30)
+        document.write("Nadwaga");
+    else 
+        document.write("Otyłość");
+</script>
