@@ -1,0 +1,152 @@
+    <script>
+   
+    // var a = parseFloat(prompt("Podaj swój wzrost w cm:"));
+    // var b = parseFloat(prompt("Podaj swoją masę ciała w kg:"));
+    // var c = a/100
+    // var d = b/(c**2)
+
+    // document.write("BMI=",d, "<br>");
+
+    // if (d<16)    
+    //     document.write("Wygłodzenie");
+    // else if (d<17)    
+    //     document.write("Wychudzenie");
+    // else if (d<18.49)    
+    //     document.write("Niedowaga");
+    // else if (d<25)
+    //     document.write("OK");
+    // else if (d<30)
+    //     document.write("Nadwaga");
+    // else if (d<35)
+    //     document.write("Otyłość I stopnia");
+    // else if (d<40)
+    //     document.write("Otyłość II stopnia (duża)");
+    // else 
+    //     document.write("Otyłość III stopnia (chorobliwa)");
+
+// najprostrza wersja
+
+    // var a = parseFloat(prompt("Podaj długośc boku trójkątu równobocznego: "));
+    // if (isNaN(a))
+    //     alert("Miałeś podać liczbę!")
+    // else if (a<=0)
+    //     alert ("To miała być liczba dodatnia!")
+    // else {
+    //     document.write("Obwó wynosi: ", 3*a, "<br>");
+    //     document.write("Obwód wynosi: ", a*3**0.5/2, "<br>");
+    //     document.write("Obwód wynosi: ", a**2*3**0.5/4, "<br>");
+    // }
+        
+// średnia wersja 
+
+// var a = parseFloat(prompt("Podaj długośc boku trójkątu równobocznego: "));
+//     if (isNaN(a) || a<=0)
+//         alert("Miałeś podać dodatnią liczbę!")
+//     else if (a<=0)
+//         alert ("To miała być liczba dodatnia!")
+//     else {
+//         document.write("Obwód wynosi: ", 3*a, "<br>");
+//         document.write("Wysokość wynosi: ", a*3**0.5/2, "<br>");
+//         document.write("Pole wynosi: ", a**2*3**0.5/4, "<br>");
+//     }
+
+// najtrudniejsza, najdziwniejsza wersja
+
+//     var a = parseFloat(prompt("Podaj długośc boku trójkątu równobocznego: "));
+//     var ok = !isNaN(a) && a>0
+
+//    if (!ok)
+//         alert("Miałeś podać dodatnią liczbę!")
+//     // else if (a<=0)
+//     //     alert ("To miała być liczba dodatnia!")
+//     else {
+//         document.write("Obwód wynosi: ", 3*a, "<br>");
+//         document.write("Wysokość wynosi: ", a*3**0.5/2, "<br>");
+//         document.write("Pole wynosi: ", a**2*3**0.5/4, "<br>");
+//     }
+
+// kolejny przykład
+
+    // var a = parseInt(prompt("Podaj liczbę całkowitą: "));
+    // var wynik;
+    // if (a>0)
+    //     wynik = "dodatnia";
+    // else 
+    //     wynik = "niedodatnia";
+    // document.write("Ta liczba jest "+wynik);
+
+// inna wersja
+
+    // var a = parseInt(prompt("Podaj liczbę całkowitą: "));
+    // var wynik = a>0 ? "dodatnia" : "niedodatnia";
+    // document.write("Ta liczba jest "+wynik);
+
+// inna wersja
+
+// var a = parseInt(prompt("Podaj liczbę całkowitą: "));
+//     var wynik = a>0 ? "dodatnia" : (a<0 ? "ujemna" : "zero");
+//     document.write("Ta liczba jest "+wynik);
+
+// kolejny przykład
+
+// var a = parseInt(prompt("Ile to jest 2+2 ?"));
+// if (a==1 || a==2 || a==3)
+//     document.write("Za mało");
+// else if (a==4)
+//     document.write("Dobrze");
+// else if (a==5)
+//     document.write("Za dużo");
+// else 
+//     document.write("Weź korki z matmy!");
+
+// inna wersja
+
+// var a = parseInt(prompt("Ile to jest 2+2 ?"));
+//     switch (a) {
+//         case 3:
+//             document.write("Za mało");
+//             break;
+//         case 4:
+//             document.write("Dobrze");
+//             break;
+//         case 5: 
+//             document.write("Za dużo");
+//             break;
+//         default:
+//             document.write("Weź korki z matmy!");
+//     }
+
+// kolejny przykład
+
+var a = parseInt(prompt("Podaj numer (1-12"));
+var r = parseInt(prompt("Podaj rok: "));
+var liczba_dni;
+switch (a) {
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        liczba_dni = 31;
+        break;
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        liczba_dni = 30;
+        break;
+    case 2:
+    if ((r%4==0) && (r%100!=0) || r%400=0)
+        liczba_dni = 29;
+    else 
+        liczba_dni = 28;
+        break;
+        default:
+    document.write("Nie ma takiego miesiąca!");
+}
+
+document.write("Ten miesiąc ma ", liczba_dni);
+
+</script>
