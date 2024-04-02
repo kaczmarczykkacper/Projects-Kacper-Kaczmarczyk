@@ -1,0 +1,49 @@
+<script>
+   
+// pierwsza lekcja
+
+// function nwd(a, b) {
+//     while (b>0) {
+//         let c = a%b
+//         a = b;
+//         b = c;
+//     }
+//     return a;
+// }
+
+// var x = parseInt(prompt("Podaj 1. liczbę: "));
+// var y = parseInt(prompt("Podaj 2. liczbę: "));
+// document.write("NWD(",x,",",y,")=",nwd(x,y));
+
+// var licznik = parseInt(prompt("Podaj licznik: "));
+// var mianownik = parseInt(prompt("Podaj mianownik: "));
+// var dzielnik = nwd(licznik, mianownik);
+// document.write(licznik, "/", mianownik, "=", licznik/dzielnik, "/", mianownik/dzielnik);
+
+// function nww(a,b) {
+//     return a*b/nwd(a,b);
+// }
+
+// var a = parseInt(prompt("Podaj 1. liczbę: "));
+// var b = parseInt(prompt("Podaj 2. liczbę: "));
+// document.write("NWW(",a,",",b,")=",nwd(a,b));
+ 
+// druga lekcja
+
+    function fibo(n) {
+        if (n<2)
+            return n;
+        var m=0;
+        var w=1;
+        for (var i=0; i<n-1 ; i++) {
+                let pom = m+w;
+                m = w;
+                w = pom;
+        }
+        return w;
+}
+
+for(var i=0;i<=15;i++)
+    document.write(fibo(i),",");
+
+    </script>
