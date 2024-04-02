@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <label for="myjnia">Wybierz usługę:</label>
+
+        <select name="mycie" id="mycie">
+          <option selected id="mycieZasadnicze" value="3">Mycie zasadnicze</option>
+          <option id="pianka" value="3">Pianka</option>
+          <option id="szczotka" value="4">Szczotka</option>
+          <option id="splukiwanie" value="2">Spłukiwanie</option>
+        </select><br><br>
+        Usługi dodatkowe:<br>
+        <input type="checkbox" id="odkurzanie" name="uslugi" value="10">odkurzanie<br>
+        <input type="checkbox" id="tapicerka" name="uslugi" value="13">tapicerka<br><br>
+        <input type="submit" value="Oblicz" id="submit"> <br>
+        Cena:
+        <p id="wynik"></p>
+        <script>
+            let cena = 0;
+
+            submit.addEventListener("click", function(){
+
+            cena = parseInt(document.getElementById("mycie").value);
+            if(document.getElementById("odkurzanie").checked){
+                cena += parseInt(odkurzanie.value);
+            }
+             if(document.getElementById("tapicerka").checked){
+                cena += parseInt(tapicerka.value);
+            }
+            wynik.innerHTML = cena;})
+        </script>
+    
+    </body>
+    </html>

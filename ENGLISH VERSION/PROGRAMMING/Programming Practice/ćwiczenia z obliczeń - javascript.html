@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+    var a = parseFloat(prompt("Podaj pierwszą liczbę:"));
+    var b = parseFloat(prompt("Podaj drugą liczbę:")); 
+    var c = a<b;
+
+    document.write(c, "<br>");
+    // dodawanie
+    document.write("Dodawanie: ");
+    document.write(a+b, "<br>");
+    // odejmowanie
+    document.write("Odejmowanie: ");
+    document.write(a-b, "<br>");
+    // mnożenie
+    document.write("Mnożenie: ");
+    document.write(a*b, "<br>");
+    // dzielenie
+    document.write("Dzielnie: ");
+    document.write(a/b, "<br>");
+    // dzielenie z resztą
+    document.write("Dzielenie z resztą: ");
+    document.write(a/b, " oraz ", a%b, " reszty", "<br>");
+    // potęgowanie
+    document.write("Potęgowanie: ");
+    document.write(a**a, "<br>");
+    // do kwadratu 
+    document.write("Do kwadratu: ");
+    document.write(a**2, "<br>");
+    /// pierwiastek sześcienny 
+    document.write("Pierwiastek sześcienny: ");
+    document.write(a**(1/3), "<br>");
+
+        var a = parseFloat(prompt("Podaj pierwszą liczbę:"));
+        var b = parseFloat(prompt("Podaj drugą liczbę:"));
+        var c = parseFloat(prompt("Podaj trzecią liczbę:"));
+        document.write("Prostopadłościan wzory: <br>");
+        
+        // Objętość
+        document.write("Objętość: ", a*b*c, "<br>");
+        // Pole
+        document.write("Pole: ", 2*a*b + 2*a*c + 2*b*c, "<br>" );
+        // Przekątna
+        document.write("Przekątna: ", (a**2 + b**2 + c**2)**(1/2) );
+
+    var a = parseInt(prompt("Podaj liczbę binarny:"), 10);
+    document.write(" Ta liczba w zapisie binarnym to ", a.toString(2));
+
+
+    </script>
+</body>
+</html>

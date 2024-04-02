@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Document</title> <link rel="stylesheet" href="style4.css"> 
+</head> 
+<body> 
+
+<fieldset> 
+<legend>POLE TRÓJKĄTA</legend> 
+<form id="numbs"> 
+A: <input type="number" id="a" name="a">
+<br> B: <input type="number" id="b" name="b">
+<br> C: <input type="number" id="c" name="c">
+<br> <input type="button" value="Oblicz"> 
+</form> 
+</fieldset><br> 
+
+<script> 
+const x = document.querySelector("#a"); 
+const y = document.querySelector("#b"); 
+const z = document.querySelector("#c"); 
+const o = ((x+y+z)/2); 
+const p = (o*(o-x)*(o-y)*(o-z)); 
+
+const btn = document.querySelector('[type="button"]'); 
+console.log(btn) 
+btn.addEventListener("click", function(evt){ 
+evt.preventDefault() 
+const c = parseInt(x.value); 
+const b = parseInt(y.value); 
+const a = parseInt(z.value); 
+const o = ((c+b+a)/2); 
+const p = Math.sqrt((o*(o-c)*(o-b)*(o-a))); 
+
+if(b+c<=a){ document.write("Nie można obliczyć takiego trójkąta."); 
+
+} else{ document.write("Można obliczyć taki trójkąt: "); 
+document.write(Math.round(p*100)/100); } }) 
+
+</script> 
+</body> 
+</html>
+
+
