@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<html> 
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Alata&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>E A T A L Y </title>
+ <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+    
+<!-- przycisk umożliwiający powrót na początek strony: -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⏏</button>
+
+<!-- nagłówek strony: -->
+
+    <div class="zdobienia"></div>
+
+    <div class="naglowek">
+        <div class="menu">
+            <a class="item_link" href="C:\Users\Kacper\Desktop\projekt restauracji - eataly\index.html">home</a>
+            <a class="item_link" href="C:\Users\Kacper\Desktop\projekt restauracji - eataly\menu.html">menu</a>   
+            <a class="item_link" href="C:\Users\Kacper\Desktop\projekt restauracji - eataly\kontakt.html">kontakt</a>
+            <a class="item_link" href="C:\Users\Kacper\Desktop\projekt restauracji - eataly\kadra.html">kadra</a>
+        </div>
+    </div>
+
+    <div class="napis">
+        <h1>EATALY</h1>
+    </div>
+
+    <div class="przywitanie">
+        <p class="przywitanie1"><section>Buon giorno! Bardzo nam miło, że tutaj jesteś.</section></p>
+        <p class="przywitanie2"><section1>Zapraszamy Cię do odwiedzenia nas stacjonarnie.</section1></p>
+        <div class="zdobienia"></div>
+    </div> 
+
+<!-- galeria zdjęć: -->
+
+    <div class="rozpoczecie">
+        <h2>Galeria</h2>
+    </div>
+    
+<div class="rzad">
+    <div class="obraz zdj1"></div>
+    <div class="obraz zdj2"></div>
+    <div class="obraz zdj3"></div>
+    <div class="obraz zdj4"></div>
+</div>
+<div class="rzad0">
+    <div class="obraz zdj5"></div>
+    <div class="obraz zdj6"></div>
+    <div class="obraz zdj7"></div>
+    <div class="obraz zdj8"></div>
+</div>
+ <div class="rzad1">
+    <div class="obraz zdj9"></div>
+    <div class="obraz zdj10"></div>
+    <div class="obraz zdj11"></div>
+    <div class="obraz zdj12"></div>
+</div>
+
+<!-- informacje  -->
+
+<div class="kontakt">
+    <h8>Lokalizacja</h8>
+    <h6>ul. Mariacka 9/8 Katowice 40-014</h6>
+    <h8>Godziny otwarcia</h8>
+    <h6>nd.-czw.: 13:00 - 22:00, pt.-sb.: 13:00 - 00:00</h6>
+    <h8>Kontakt</h8>
+    <h6>+48 657 557 647</h6>
+    <h8>Social Media</h8>
+    <h6>
+        <a href="https://www.instagram.com"> <i class="fa fa-instagram" style="font-size:30px"></i></a>
+        <a href="https://www.facebook.com"><j class='fa fa-facebook' style="font-size:30px"></i></a>   
+    </h6>
+</div>
+
+<!-- przycisk umożliwiający powrót na początek strony: -->
+
+    <script>
+                                                                                                                                                                    
+        var mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+  </body>
+</html>
