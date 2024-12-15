@@ -1,21 +1,18 @@
 [ENGLISH VERSION BELOW]
 
-Cześć!
-Zapraszam Cię na podróż przez moją drogę edukacyjną od technikum po studia, aż po projekt związany z analizą danych. Tutaj zgromadziłem wszystkie pliki związane z projektami oraz zadaniami, które reprezentują moje zainteresowania, umiejętności i rozwój na przestrzeni lat.
+Zapraszam do zapoznania się z moim portfolio, które przedstawia moją ścieżkę rozwoju – od edukacji w technikum, przez studia, aż po realizację projektu związanego z analizą danych. W tym miejscu znajdziesz dokumentację moich projektów, zadań oraz osiągnięć, które odzwierciedlają moje zainteresowania, umiejętności i postępy na przestrzeni lat.
 
-Od najwcześniejszych lat mojej edukacji kierowałem się pasją do zgłębiania wiedzy i eksplorowania nowych obszarów, szczególnie w zakresie IT, baz danych oraz social media. Technikum oraz studia były dla mnie czasem odkrywania różnorodnych dziedzin, a także budowania podstawowych umiejętności, które przydały mi się w dalszym rozwoju. Z czasem miałem możliwość zgłębiać bardziej zaawansowane zagadnienia związane z moją pasją. Jednym z najbardziej ekscytujących momentów mojej drogi było zaangażowanie się w projekt związany z analizą danych, a dzięki temu ukierunkowałem wizję na swoją ściężkę kariery.   
+Już od początku swojej edukacji byłem zafascynowany zdobywaniem wiedzy i eksploracją nowych obszarów, szczególnie w dziedzinach IT, baz danych oraz social media. Technikum i studia stanowiły dla mnie solidny fundament do dalszego rozwoju – zarówno poprzez naukę podstaw, jak i bardziej zaawansowanych zagadnień. Kluczowym momentem w mojej ścieżce było zaangażowanie w projekt z zakresu analizy danych, który pozwolił mi nie tylko rozwinąć umiejętności, ale także ukierunkować swoją karierę zawodową.
 
-W tym portfolio chciałbym podzielić się z Tobą nie tylko moimi projektami, ale także moimi zainteresowania. Zapraszam do zapoznania się z moją twórczością i odkrywania razem ze mną świata wiedzy i możliwości, jakie niesie za sobą świat IT!
-  
-  ~ Kacper Kaczmarczyk
+Celem tego portfolio jest przedstawienie moich doświadczeń i projektów, które pokazują moje zaangażowanie oraz pasję do analizy danych. Mam nadzieję, że znajdziesz tutaj inspirację oraz ciekawe przykłady mojej pracy. Dziękuję za poświęcony czas i zapraszam do wspólnego odkrywania możliwości, jakie oferuje świat IT i analizy danych!
+
+~ Kacper Kaczmarczyk
 _____________
 
-Hi!
+I invite you to explore my portfolio, which showcases my development journey – from technical school, through university studies, to the implementation of a data analysis project. Here, you will find documentation of my projects, tasks, and achievements that reflect my interests, skills, and progress over the years.
 
-I invite you on a journey through my educational path from high school to university, all the way to a data analysis-related project. Here, I have gathered all the files related to projects and tasks that represent my interests, skills, and development over the years.
+From the very beginning of my education, I have been fascinated by acquiring knowledge and exploring new areas, particularly in IT, databases, and social media. Technical school and university provided me with a solid foundation for further growth – both through learning the basics and delving into more advanced topics. A pivotal moment in my journey was becoming involved in a data analysis project, which not only helped me refine my skills but also shaped my career path.
 
-From the earliest years of my education, I have been driven by a passion for delving into knowledge and exploring new areas, especially in IT, databases, and social media. High school and university were times of discovering diverse fields and building fundamental skills that proved useful in my further development. Over time, I had the opportunity to delve into more advanced topics related to my passion. One of the most exciting moments of my journey was getting involved in a data analysis project, which helped me shape my career vision.
-
-In this portfolio, I would like to share not only my projects but also my interests with you. I invite you to explore my creations and discover together the world of knowledge and possibilities that the IT field brings!
+The goal of this portfolio is to present my experiences and projects, demonstrating my dedication and passion for data analysis. I hope you find inspiration here and discover engaging examples of my work. Thank you for your time, and I invite you to join me in exploring the opportunities that the world of IT and data analysis has to offer!
   
   ~ Kacper Kaczmarczyk
